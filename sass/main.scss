@@ -1,36 +1,27 @@
-@import "base/base";
-@import "base/animations";
-@import "base/typography";
-@import "base/utilities";
 
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
 @import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+@import "components/bg-video";
+@import "components/form";
 
+
+
+
+@import "layout/grid";
 @import "layout/header";
-@import "layout/about";
 
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 65.5%;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.7;
-  color: $color-dark-grey;
-  padding: 3rem;
-  box-sizing: border-box;
-}
+@import "pages/home";
 
